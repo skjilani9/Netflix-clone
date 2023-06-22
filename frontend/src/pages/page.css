@@ -1,0 +1,267 @@
+.signup{
+    position: relative;
+}
+.signup .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 15vh 85vh;
+}
+.content-body{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-text{
+    gap: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.content-text h1{
+    padding: 0 25rem;
+}
+.form{
+    width: 60%;
+    display: grid;
+}
+.form input{
+    color: black;
+    border: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+.form input:focus{
+    outline: none;
+}
+.form button{
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+.content-body button{
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+.login{
+    position: relative;
+}
+.login-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    grid-template-rows: 15vh 85vh;
+}
+
+.login-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 85vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #000000b0;
+    width: 25vw;
+    gap: 2rem;
+    color: white;
+}
+
+.login-form .login-con{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #000000b0;
+    width: 25vw;
+    gap: 2rem;
+    color: white;
+}
+.login-con input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+
+}
+.login-con button{
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.05rem;
+}
+
+.hero{
+    position: relative;
+}
+.background-image {
+    filter: brightness(60%);
+}
+.hero img{
+    width: 100vw;
+    height: 100vh;
+}
+.hero .conta{
+    position: absolute;
+    bottom: 5rem;
+}
+.conta .log img{
+    width: 100%;
+    height: 100%;
+    margin-left: 5rem;
+}
+.conta .buttons{
+    margin: 5rem;
+    gap: 2rem;
+    display: flex;
+}
+.buttons button{
+    font-size: 1.4rem;
+    gap: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button:hover{
+    opacity: 0.8;
+}
+.buttons button:nth-of-type(2){
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+}
+.buttons button:nth-of-type(2) svg{
+    font-size: 1.8rem;
+}
+.player{
+    width: 100vw;
+    height: 100vh;
+}
+.player .play-back{
+    position: absolute;
+    padding: 2rem;
+    z-index: 1;
+}
+.play-back svg{
+    font-size: 3rem;
+    cursor: pointer;
+}
+.player video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.movie-data{
+    margin-top: 8rem;
+}
+
+
+.mylist-cont{
+    display: flex;
+    flex-direction: column;
+    margin: 2.3rem;
+    margin-top: 8rem;
+    gap: 3rem;
+}
+.mylist-cont h1{
+    margin-left: 3rem;
+}
+.mylist-cont .mylist-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.search-cont{
+    width: 100vw;
+}
+.search-int svg{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.search-cont div .search-int{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 3rem 0;
+    align-items: center;
+}
+.search-int select{
+    width: 30%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.search-int input{
+    width: 30%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.search_movies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-cont .search-btn{
+    width: 80%;
+    margin: 1rem auto;
+    overflow-x: scroll;
+    display: flex;
+    
+}
+.search-cont .search-btn::-webkit-scrollbar{
+    display: none;
+}
+.search-btn button{
+    padding: 0.5rem 0.5rem;
+    margin: 0 1rem;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
